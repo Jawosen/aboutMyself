@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary_color: hsl(22, 31%, 76%);
+  --secondary_color: #f5ebe0ac;
+  --third_color: #e3d5ca;
+}
+body {
+  background-color: var(--primary_color);
+  margin: 0;
+}
+header {
+  background-color: var(--secondary_color);
+  text-align: center;
+}
+nav {
+  background-color: var(--third_color);
+ 
+}
+
+ul{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+    overflow: hidden; 
+}
+
+ul li{
+/*making a rule for all of the list items of an unordered list*/
+float:left; 
+}
+ul li a{
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.active{
+    background-color: gray;
+    
+}
+
+
+ul li a:hover{
+    background-color:blue;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  background-color: var(--secondary_color);
+}
+
+h3 {
+  text-align: center;
+  background-color: var(--secondary_color);
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.7rem;
+}
+
+img {
+  border-radius: 9px;
+  margin: auto;
+  display: block;
+}
